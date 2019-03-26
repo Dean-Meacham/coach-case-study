@@ -1,0 +1,166 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+p {
+    font-family: titillium web;
+    font-size: 16px;
+    color: #13293d;
+    word-wrap: break-word;
+}
+h2, h3 {
+    font-family: krungthep;
+    font-size: 22px;
+    color: #3ec52b;
+    margin: 0;
+}
+.nav a {
+    font-size: 20px;
+}
+.nav {
+    background: #a997df;
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+}
+ul {
+    display: none;
+    padding: 0 30px;
+    font-family: titillium web;
+    list-style-type: none;
+    color: blue;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+a {
+    font-family: titillium web;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    text-decoration: underline;
+    /* font-size: 25px; */
+    transition: color .15s ease-in-out;
+}
+section {
+    padding-bottom: 60px;
+}
+.boxed {
+    padding-top: 110px;
+    background: #00ffc5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.banner {
+    padding: 0 30px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.whistle-image {
+    display: none;
+}
+.boxed-interviews {
+    background-image: linear-gradient(#ed5c34, white);
+}
+#interview-insights {
+    padding: 15px 0;
+    color: white;
+}
+.persons img  {
+    max-width: 100%;
+}
+.problem-yo {
+    background-image: url("images/coach-green.png");
+    background-size: cover;
+    background-position: center;
+}
+#problem-identified {
+    color: #ed5c34;
+    padding-top: 150px;
+}
+#final-hmw  {
+    color: #ed5c34;
+}
+.boxed-font {
+    background-image: linear-gradient(#a997df, white)
+}
+#font-color {
+    padding-top: 250px;
+    color: white;
+}
+.product {
+    background-image: url("images/big-heads.png");
+    background-size: cover;
+    background-position: center;
+    clear: both;
+}
+#planning {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    color: #a997df;
+}
+#visual {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #ed5c34;
+}
+#audio {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.arm {
+    position: static;
+}
+#lessons-learned {
+    padding-top: 250px;
+}
+#design-decisions {
+    color: #13293d;
+}
+.heads {
+    margin-left: 275px;
+}
+@media (min-width: 900px) {
+    html {
+        font-size: 1.125rem;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .boxed {
+        padding-top: 130px;
+        flex-direction: row;
+    }
+    .boxed .banner {
+        width: 50%;
+    }
+    #project-overview {
+        padding-top: 130px;
+    }
+    #user-personas {
+        padding-top: 130px;
+    }
+    #font-color {
+        padding-top: 130px;
+    }
+    #planning {
+        padding-top: 130px;
+    }
+    #lessons-learned {
+        padding-top: 130px;
+    }
+}
