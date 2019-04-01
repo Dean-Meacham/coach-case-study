@@ -133,6 +133,45 @@ section {
 .heads {
     margin-left: 275px;
 }
+/*form start*/
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #a997df;
+    justify-content: center;
+}
+header {
+    padding: 20px 20px;
+    font-family: krungthep;
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+
+section .field {
+    padding: 20px 20px;
+}
+.field input[type=text] {
+    font-size: 1rem;
+    font-family: titillium web;
+}
+.btn-wrapper {
+    display: flex;
+    width: 100%;
+}
+button {
+    background-color: #00ffc5;
+    padding: 10px;
+    font-size: 1rem;
+    color: #13293d;
+    border-width: 4px;
+    border-color: #f2ff49;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: titillium web;
+    cursor: pointer;
+}
 @media (min-width: 900px) {
     html {
         font-size: 1.125rem;
