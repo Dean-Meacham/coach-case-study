@@ -7,11 +7,11 @@ img {
 }
 @font-face {
     font-family: 'krungthep';
-    src: url('fonts/Krungthep.ttf') format('tff');
+    src: url('./fonts/Krungthep.ttf') format('tff');
 }
 @font-face {
     font-family: 'titillium';
-    src: url('fonts/TitilliumWeb-Regular.ttf') format('tff');
+    src: url('./fonts/TitilliumWeb-Regular.ttf') format('tff');
 }
 .nav-mobile {
     height: 40px;
